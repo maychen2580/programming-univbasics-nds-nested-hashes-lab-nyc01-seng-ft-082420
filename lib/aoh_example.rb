@@ -15,7 +15,12 @@ end
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
-  
+  [
+    {name => "Dongatelu", occupation => "Live-in Staff"},
+    {name => "Pat Monteseian", occupation => "Radio Personality"},
+    {name => "Kate Gopert", occupation => "None"},
+    {name => "Bruce Green", occupation =>" Fan of Mildred"}
+    ]
   
 end
 
